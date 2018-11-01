@@ -11,10 +11,11 @@
   width: 100%;
   margin: 10px;
   text-align: center;
-
   font-size: 300px;
 }
-
+.flex-container > div:hover {
+  box-shadow: 5px 6px 6px 3px hsl(180, 5%, 29%);
+}
 body {
   background-color: blue;
   font-family: monospace;
@@ -39,7 +40,7 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 36px;
+  font-size: 16px;
   margin: 4px 2px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
